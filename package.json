@@ -1,8 +1,9 @@
 {
   "name": "weather-app-vite",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dariuslukasukas.github.io/weather-app-vite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
