@@ -49,6 +49,9 @@ function OtherCities() {
     );
     // save location to redux store
     dispatch(saveLocation(item.data.name, item.data.sys.country));
+
+    // scroll to top of page
+    window.scrollTo(0, 0);
   };
 
   return (
