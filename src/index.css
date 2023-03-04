@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kardust-Bold";
+  font-weight: 700;
+  src: url("/fonts/Kardust-Bold.woff2") format("woff"),
+    url("/fonts/Kardust-Bold.woff2") format("woff2");
+}
+
+/* Special styling for WebKit/Blink */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 2px solid transparent;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 100%;
+  background: #ffffff;
+}
+
+/* All the same stuff for Firefox */
+input[type="range"]::-moz-range-thumb {
+  border: 2px solid transparent;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  background: #ffffff;
+}
+
+/* All the same stuff for IE */
+input[type="range"]::-ms-thumb {
+  border: 1px solid transparent;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  background: #ffffff;
+}
