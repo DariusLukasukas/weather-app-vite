@@ -4,6 +4,8 @@ This is a simple weather application built with React and Vite. It allows users 
 
 <img width="1702" alt="Screenshot-dark-mode" src="https://user-images.githubusercontent.com/64962012/223087582-f94a7e11-6dfa-47ec-a272-a78fc857fbe1.png">
 
+[**View demo**](https://github.com/DariusLukasukas/weather-app-vite) 
+
 ## Features
 
 * Search for weather information by city name or ZIP code
