@@ -1,4 +1,4 @@
-# Weather App 
+# Weather App ✨
 
 This is a simple weather application built with React and Vite. It allows users to search for a city and get the current weather conditions for that location.
 
